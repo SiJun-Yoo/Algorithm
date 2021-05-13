@@ -15,4 +15,3 @@ int solution(int left, int right) {
     }
     return ans;
 }
-1¹ø
