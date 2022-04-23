@@ -60,10 +60,10 @@ public class Boj_14503 {
 			int mx = x+dx[nextDir];
 			int my = y+dy[nextDir];
 			if(a[mx][my]==1) {
-				break;
+				break; //4바퀴 돌려도 안나오면 후진하는데 벽이면 종료
 			}
 			x=mx;
-			y=my;
+			y=my;//4바퀴 돌려도 안나오면 후진한다.
 		}
 		bw.write(Integer.toString(ans));
 		bw.flush();
