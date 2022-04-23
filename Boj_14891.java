@@ -5,7 +5,7 @@ import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 import java.util.StringTokenizer;
 
-public class Main {
+public class Boj_14891 {
 	public static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	public static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	public static StringTokenizer st;
