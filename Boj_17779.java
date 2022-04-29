@@ -17,8 +17,6 @@ public class Boj_17779 {
 	public static int n;
 	public static int a[][] = new int[21][21];
 	public static int b[][] = new int[21][21];
-	public static int dx[] = { 0, -1, 0, 1 };
-	public static int dy[] = { 1, 0, -1, 0 };
 
 	public static void main(String[] args) throws IOException {
 		n = Integer.parseInt(br.readLine());
@@ -44,14 +42,7 @@ public class Boj_17779 {
 		bw.write(Integer.toString(ans));
 		bw.flush();
 	}
-	public static void print() {
-		for(int i= 1;i<=n;i++) {
-			for(int j =1;j<=n;j++)
-				System.out.print(b[i][j]+" ");
-			System.out.println();
-		}
-		System.out.println();
-	}
+
 	public static boolean isSafe(int x, int y, int d1, int d2) {
 		return x + d1 + d2 <= n && 1 <= y - d1 && y + d2 <= n;
 	}
