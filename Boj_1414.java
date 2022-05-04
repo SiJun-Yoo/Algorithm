@@ -7,7 +7,7 @@ import java.util.PriorityQueue;
 import java.util.StringTokenizer;
 
 
-public class Main {
+public class Boj_1414 {
 	public static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 	public static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 	public static StringTokenizer st;
